@@ -1,4 +1,5 @@
 #! /bin/sh
+# sd_mount.sh
 
 # create mounting directory
 if [ ! -d "/media/sdcard" ]; then
