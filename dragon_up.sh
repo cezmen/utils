@@ -1,7 +1,7 @@
 #! /bin/sh
 # dragon_up.sh
 
-if [ -d /media/sdcard ]; then
+if [ ! -d /media/sdcard ]; then
   sudo mkdir /media/sdcard
 fi
 
